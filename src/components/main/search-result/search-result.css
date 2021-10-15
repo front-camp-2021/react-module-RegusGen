@@ -1,0 +1,33 @@
+.main__right-top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.buttonHeart {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    width: 47px;
+    height: 40px;
+    border: none;
+    background: #6F64F8;
+}
+
+.textFilter {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2C2C2C;
+    display: grid;
+    align-items: center;
+}
+
+.contButton {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
+
+.set-font {
+    font-family: Montserrat, serif;
+    font-style: normal;
+}

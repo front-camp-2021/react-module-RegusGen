@@ -1,0 +1,31 @@
+.main {
+    display: grid;
+    grid-template-columns: 31% 69%;
+    margin-left: 1.5%;
+}
+
+.main__left {
+    display: grid;
+    grid-template-rows: 72px 1533px 74px;
+}
+
+.main__right {
+    display: grid;
+    grid-template-rows: 72px 80px auto;
+    margin-left: 1.5%;
+}
+
+@media screen and (max-width: 720px) {
+    .main__left {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main__left {
+        display: none;
+    }
+    .main {
+        grid-template-columns: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+.main__left-bar {
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 254px 20px 476px 20px auto;
+}
+
+.categoryRange {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #2C2C2C;
+    padding: 0 0 0 8%;
+}
+
+.nameMultiRange {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2C2C2C;
+    padding: 25px 15px 0 40px;
+}
+
+.set-font {
+    font-family: Montserrat, serif;
+    font-style: normal;
+}
+
+.center_items {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    padding-left: 48px;
+}
