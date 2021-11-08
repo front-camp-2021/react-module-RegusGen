@@ -1,0 +1,65 @@
+.main__right-top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main__top {
+    display: grid;
+    grid-template-columns: 83% 10% 7%;
+    margin-top: 20px;
+}
+
+.buttonHeart {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    width: 47px;
+    height: 40px;
+    border: none;
+    background: #6F64F8;
+    cursor: pointer;
+}
+
+.buttonClearWishlist {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    width: 210px;
+    height: 40px;
+    border: none;
+    background: #6F64F8;
+    cursor: pointer;
+    margin-top: 2px;
+    font-size: 17px;
+    color: #EDEDED;
+}
+
+.buttonHome {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    width: 47px;
+    height: 40px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.textFilter {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2C2C2C;
+    display: grid;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.contButton {
+    display: grid;
+    /*align-items: center;*/
+    justify-content: right;
+    /*grid-template-columns: 25% 25%;*/
+}
+
+.set-font {
+    font-family: Montserrat, serif;
+    font-style: normal;
+}
